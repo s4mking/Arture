@@ -1,12 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import FindMe from './screens/FindMe';
+// import FindMe from './screens/FindMe';
+import Direction from './screens/Direction';
+// import Activity from './screens/Activity';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <FindMe />
+      {/* <FindMe /> */}
+      {/* <Activity /> */}
+      <Direction />
     </View>
   );
 }
