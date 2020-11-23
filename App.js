@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 // import FindMe from './screens/FindMe';
 import Direction from './screens/Direction';
+// import Movement from './screens/Movement';
 // import Activity from './screens/Activity';
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       {/* <FindMe /> */}
       {/* <Activity /> */}
       <Direction />
+      {/* <Movement /> */}
     </View>
   );
 }

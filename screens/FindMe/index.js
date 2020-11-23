@@ -52,8 +52,8 @@ class FindMe extends Component {
               latitudeDelta: 0,
               longitudeDelta: 0
             }),
-            latitudeNew: null,
-            longitudeNew: null,
+            latitude: null,
+            longitude: null,
             error: null,
             concat: null,
             coords:[],
